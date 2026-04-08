@@ -34,13 +34,7 @@ int main() {
         default:
             std::cout<<"Invalid Choice..";
         }
-
-        if (choice == 1) compress();
-        else if (choice == 2) decompress();
-        else if (choice == 3) break;
-        else std::cout << "Invalid choice.\n";
     }
-    return 0;
 }
 
 void compress() {
